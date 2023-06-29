@@ -1,0 +1,44 @@
+ .topnav{
+    display: flex;
+    background-color: azure;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width:97%;
+    justify-content: space-between;
+ }
+
+.navLeft{
+   display: flex;
+   width: 50%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navLeftElem {
+    list-style-type: none;
+    font-weight: 400;
+    text-decoration: none ;
+    font-size: 20px;
+    margin-right: 18px;
+}
+
+.decorationLogo{
+   text-decoration: none ;
+   border-radius: 5px ;
+   font-size: 20px ;
+   font-weight: 600;
+}
+
+.decoration{
+   text-decoration: none ;
+}
+
+.navRightElem{
+   color: green;
+   font-weight: 600;
+}
+img{
+   height:100px;
+   width: 100px;
+}
